@@ -1,0 +1,2787 @@
+{
+  "datasets": [
+    {
+      "name": "d4e3a580",
+      "displayName": "jio_supply_chain",
+      "config": {
+        "version": "1.1",
+        "source": "workspace.default.jio_supply_chain",
+        "dimensions": [
+          {
+            "name": "data_tier",
+            "expr": "source.data_tier",
+            "displayName": "Data Tier"
+          },
+          {
+            "name": "event_id",
+            "expr": "source.event_id",
+            "displayName": "Event Id"
+          },
+          {
+            "name": "event_ts",
+            "expr": "source.event_ts",
+            "displayName": "Event Ts"
+          },
+          {
+            "name": "event_type",
+            "expr": "source.event_type",
+            "displayName": "Event Type"
+          },
+          {
+            "name": "lifecycle_stage",
+            "expr": "source.lifecycle_stage",
+            "displayName": "Lifecycle Stage"
+          },
+          {
+            "name": "scenario_name",
+            "expr": "source.scenario_name",
+            "displayName": "Scenario Name"
+          },
+          {
+            "name": "channel_path",
+            "expr": "source.channel_path",
+            "displayName": "Channel Path"
+          },
+          {
+            "name": "oem_name",
+            "expr": "source.oem_name",
+            "displayName": "Oem Name"
+          },
+          {
+            "name": "sku_id",
+            "expr": "source.sku_id",
+            "displayName": "Sku Id"
+          },
+          {
+            "name": "sku_family",
+            "expr": "source.sku_family",
+            "displayName": "Sku Family"
+          },
+          {
+            "name": "brand",
+            "expr": "source.brand",
+            "displayName": "Brand"
+          },
+          {
+            "name": "device_type",
+            "expr": "source.device_type",
+            "displayName": "Device Type"
+          },
+          {
+            "name": "warehouse_id",
+            "expr": "source.warehouse_id",
+            "displayName": "Warehouse Id"
+          },
+          {
+            "name": "warehouse_region",
+            "expr": "source.warehouse_region",
+            "displayName": "Warehouse Region"
+          },
+          {
+            "name": "retail_store_id",
+            "expr": "source.retail_store_id",
+            "displayName": "Retail Store Id"
+          },
+          {
+            "name": "customer_id",
+            "expr": "source.customer_id",
+            "displayName": "Customer Id"
+          },
+          {
+            "name": "customer_region",
+            "expr": "source.customer_region",
+            "displayName": "Customer Region"
+          },
+          {
+            "name": "order_id",
+            "expr": "source.order_id",
+            "displayName": "Order Id"
+          },
+          {
+            "name": "order_line_id",
+            "expr": "source.order_line_id",
+            "displayName": "Order Line Id"
+          },
+          {
+            "name": "shipment_id",
+            "expr": "source.shipment_id",
+            "displayName": "Shipment Id"
+          },
+          {
+            "name": "rma_id",
+            "expr": "source.rma_id",
+            "displayName": "Rma Id"
+          },
+          {
+            "name": "carrier",
+            "expr": "source.carrier",
+            "displayName": "Carrier"
+          },
+          {
+            "name": "qty",
+            "expr": "source.qty",
+            "displayName": "Qty"
+          },
+          {
+            "name": "unit_cost",
+            "expr": "source.unit_cost",
+            "displayName": "Unit Cost"
+          },
+          {
+            "name": "sell_price",
+            "expr": "source.sell_price",
+            "displayName": "Sell Price"
+          },
+          {
+            "name": "inventory_status_after",
+            "expr": "source.inventory_status_after",
+            "displayName": "Inventory Status After"
+          },
+          {
+            "name": "order_status_after",
+            "expr": "source.order_status_after",
+            "displayName": "Order Status After"
+          },
+          {
+            "name": "shipment_status_after",
+            "expr": "source.shipment_status_after",
+            "displayName": "Shipment Status After"
+          },
+          {
+            "name": "activation_status_after",
+            "expr": "source.activation_status_after",
+            "displayName": "Activation Status After"
+          },
+          {
+            "name": "reverse_status_after",
+            "expr": "source.reverse_status_after",
+            "displayName": "Reverse Status After"
+          },
+          {
+            "name": "actual_cycle_days",
+            "expr": "source.actual_cycle_days",
+            "displayName": "Actual Cycle Days"
+          },
+          {
+            "name": "delay_days",
+            "expr": "source.delay_days",
+            "displayName": "Delay Days"
+          },
+          {
+            "name": "exception_code",
+            "expr": "source.exception_code",
+            "displayName": "Exception Code"
+          },
+          {
+            "name": "root_cause_category",
+            "expr": "source.root_cause_category",
+            "displayName": "Root Cause Category"
+          },
+          {
+            "name": "revenue_leakage_flag",
+            "expr": "source.revenue_leakage_flag",
+            "displayName": "Revenue Leakage Flag"
+          },
+          {
+            "name": "customer_impact_score",
+            "expr": "source.customer_impact_score",
+            "displayName": "Customer Impact Score"
+          },
+          {
+            "name": "inventory_delta",
+            "expr": "source.inventory_delta",
+            "displayName": "Inventory Delta"
+          },
+          {
+            "name": "on_time_flag",
+            "expr": "source.on_time_flag",
+            "displayName": "On Time Flag"
+          },
+          {
+            "name": "anomaly_flag",
+            "expr": "source.anomaly_flag",
+            "displayName": "Anomaly Flag"
+          },
+          {
+            "name": "state_code",
+            "expr": "source.state_code",
+            "displayName": "State Code"
+          },
+          {
+            "name": "facility_type",
+            "expr": "source.facility_type",
+            "displayName": "Facility Type"
+          },
+          {
+            "name": "region",
+            "expr": "source.region",
+            "displayName": "Region"
+          },
+          {
+            "name": "year",
+            "expr": "source.year",
+            "displayName": "Year"
+          },
+          {
+            "name": "month",
+            "expr": "source.month",
+            "displayName": "Month"
+          },
+          {
+            "name": "quarter",
+            "expr": "source.quarter",
+            "displayName": "Quarter"
+          },
+          {
+            "name": "day",
+            "expr": "source.day",
+            "displayName": "Day"
+          },
+          {
+            "name": "week",
+            "expr": "source.week",
+            "displayName": "Week"
+          },
+          {
+            "name": "gmv",
+            "expr": "source.gmv",
+            "displayName": "Gmv"
+          },
+          {
+            "name": "is_delayed",
+            "expr": "source.is_delayed",
+            "displayName": "Is Delayed"
+          },
+          {
+            "name": "is_exception",
+            "expr": "source.is_exception",
+            "displayName": "Is Exception"
+          },
+          {
+            "name": "flow_type",
+            "expr": "source.flow_type",
+            "displayName": "Flow Type"
+          },
+          {
+            "name": "high_impact_flag",
+            "expr": "source.high_impact_flag",
+            "displayName": "High Impact Flag"
+          },
+          {
+            "name": "has_order",
+            "expr": "source.has_order",
+            "displayName": "Has Order"
+          }
+        ],
+        "measures": [
+          {
+            "name": "count",
+            "expr": "COUNT(*)",
+            "comment": "Represents the total number of rows in the dataset. Use this measure to count all",
+            "displayName": "Count"
+          },
+          {
+            "name": "total_orders",
+            "expr": "COUNT(DISTINCT CASE WHEN order_id IS NOT NULL THEN order_id END)",
+            "displayName": "Total Orders"
+          },
+          {
+            "name": "total_qty",
+            "expr": "SUM(qty)",
+            "displayName": "Total Quantity"
+          },
+          {
+            "name": "total_gmv",
+            "expr": "SUM(gmv)",
+            "displayName": "Total GMV"
+          },
+          {
+            "name": "delivered_orders",
+            "expr": "COUNT(DISTINCT CASE WHEN shipment_status_after = 'DELIVERED' THEN order_id END)",
+            "displayName": "Delivered Orders"
+          },
+          {
+            "name": "activated_orders",
+            "expr": "COUNT(DISTINCT CASE WHEN activation_status_after = 'ACTIVATED' THEN order_id END)",
+            "displayName": "Activated Orders"
+          },
+          {
+            "name": "failed_activation_orders",
+            "expr": "COUNT(DISTINCT CASE WHEN activation_status_after = 'FAILED' THEN order_id END)",
+            "displayName": "Failed Activation Orders"
+          },
+          {
+            "name": "revenue_leakage_count",
+            "expr": "SUM(revenue_leakage_flag)",
+            "displayName": "Revenue Leakage Count"
+          },
+          {
+            "name": "on_time_count",
+            "expr": "SUM(on_time_flag)",
+            "displayName": "On Time Count"
+          },
+          {
+            "name": "delayed_count",
+            "expr": "SUM(is_delayed)",
+            "displayName": "Delayed Count"
+          },
+          {
+            "name": "exception_count",
+            "expr": "SUM(is_exception)",
+            "displayName": "Exception Count"
+          },
+          {
+            "name": "anomaly_count",
+            "expr": "SUM(anomaly_flag)",
+            "displayName": "Anomaly Count"
+          },
+          {
+            "name": "inventory_inflow",
+            "expr": "SUM(CASE WHEN inventory_delta > 0 THEN inventory_delta ELSE 0 END)",
+            "displayName": "Inventory Inflow"
+          },
+          {
+            "name": "inventory_outflow",
+            "expr": "SUM(CASE WHEN inventory_delta < 0 THEN ABS(inventory_delta) ELSE 0 END)",
+            "displayName": "Inventory Outflow"
+          },
+          {
+            "name": "net_inventory_change",
+            "expr": "SUM(inventory_delta)",
+            "displayName": "Net Inventory Change"
+          },
+          {
+            "name": "avg_delay_days",
+            "expr": "AVG(delay_days)",
+            "displayName": "Avg Delay Days"
+          },
+          {
+            "name": "returns_count",
+            "expr": "COUNT(DISTINCT CASE WHEN reverse_status_after IS NOT NULL THEN rma_id END)",
+            "displayName": "Returns Count"
+          },
+          {
+            "name": "scrap_count",
+            "expr": "COUNT(DISTINCT CASE WHEN reverse_status_after = 'SCRAPPED' THEN rma_id END)",
+            "displayName": "Scrap Count"
+          },
+          {
+            "name": "restock_count",
+            "expr": "COUNT(DISTINCT CASE WHEN reverse_status_after = 'RESTOCKED' THEN rma_id END)",
+            "displayName": "Restock Count"
+          },
+          {
+            "name": "refurbish_count",
+            "expr": "COUNT(DISTINCT CASE WHEN reverse_status_after = 'REFURBISHED' THEN rma_id END)",
+            "displayName": "Refurbish Count"
+          },
+          {
+            "name": "delivery_rate_base",
+            "expr": "COUNT(DISTINCT CASE WHEN shipment_status_after = 'DELIVERED' THEN order_id END)",
+            "displayName": "Delivery Rate Base"
+          },
+          {
+            "name": "activation_rate_base",
+            "expr": "COUNT(DISTINCT CASE WHEN activation_status_after = 'ACTIVATED' THEN order_id END)",
+            "displayName": "Activation Rate Base"
+          },
+          {
+            "name": "delivery_rate",
+            "expr": "MEASURE(delivery_rate_base) / MEASURE(total_orders)",
+            "displayName": "Delivery Rate"
+          },
+          {
+            "name": "activation_rate",
+            "expr": "MEASURE(activation_rate_base) / MEASURE(delivery_rate_base)",
+            "displayName": "Activation Rate"
+          },
+          {
+            "name": "failure_to_return_rate",
+            "expr": "MEASURE(returns_count) / MEASURE(failed_activation_orders)",
+            "displayName": "Failure to Return Rate"
+          },
+          {
+            "name": "scrap_rate",
+            "expr": "MEASURE(scrap_count) / MEASURE(returns_count)",
+            "displayName": "Scrap Rate"
+          }
+        ]
+      }
+    },
+    {
+      "name": "warehouse_geo_map",
+      "displayName": "Warehouse Geo Map Data",
+      "queryLines": [
+        "WITH warehouse_coords AS (\n",
+        "  SELECT\n",
+        "    'WH_NORTH_DL' as warehouse_id,\n",
+        "    'Delhi' as city,\n",
+        "    28.667784763838412 as latitude,\n",
+        "    77.1947796517478 as longitude\n",
+        "  UNION ALL\n",
+        "  SELECT\n",
+        "    'WH_NORTH_CH',\n",
+        "    'Chandigarh',\n",
+        "    30.737271020662025,\n",
+        "    76.77929208730173\n",
+        "  UNION ALL\n",
+        "  SELECT\n",
+        "    'DC_NORTH_UP',\n",
+        "    'Lucknow',\n",
+        "    26.857785118472638,\n",
+        "    80.94112038258145\n",
+        "  UNION ALL\n",
+        "  SELECT\n",
+        "    'WH_WEST_MH',\n",
+        "    'Mumbai',\n",
+        "    18.968483809144722,\n",
+        "    72.82958055376464\n",
+        "  UNION ALL\n",
+        "  SELECT\n",
+        "    'WH_WEST_GJ',\n",
+        "    'Ahmedabad',\n",
+        "    23.030900721843018,\n",
+        "    72.57491637092005\n",
+        "  UNION ALL\n",
+        "  SELECT\n",
+        "    'DC_WEST_RJ',\n",
+        "    'Jaipur',\n",
+        "    26.923691209787727,\n",
+        "    75.78847884359011\n",
+        "  UNION ALL\n",
+        "  SELECT\n",
+        "    'WH_SOUTH_KA',\n",
+        "    'Bangalore',\n",
+        "    12.977878329705598,\n",
+        "    77.58553638021783\n",
+        "  UNION ALL\n",
+        "  SELECT\n",
+        "    'DC_SOUTH_TN',\n",
+        "    'Chennai',\n",
+        "    13.096811032909338,\n",
+        "    80.27176015010905\n",
+        "  UNION ALL\n",
+        "  SELECT\n",
+        "    'DC_SOUTH_TG',\n",
+        "    'Hyderabad',\n",
+        "    17.414246263323484,\n",
+        "    78.47874956004502\n",
+        "  UNION ALL\n",
+        "  SELECT\n",
+        "    'DC_SOUTH_KL',\n",
+        "    'Kochi',\n",
+        "    9.937130498790493,\n",
+        "    76.2705133411387\n",
+        "  UNION ALL\n",
+        "  SELECT\n",
+        "    'WH_EAST_WB',\n",
+        "    'Kolkata',\n",
+        "    22.57884319157552,\n",
+        "    88.36279734145604\n",
+        "  UNION ALL\n",
+        "  SELECT\n",
+        "    'DC_EAST_JH',\n",
+        "    'Ranchi',\n",
+        "    23.34816164480468,\n",
+        "    85.3137534890413\n",
+        "  UNION ALL\n",
+        "  SELECT\n",
+        "    'DC_EAST_OD',\n",
+        "    'Bhubaneswar',\n",
+        "    20.29501063920177,\n",
+        "    85.83073272626491\n",
+        "  UNION ALL\n",
+        "  SELECT\n",
+        "    'DC_CENTRAL_MP',\n",
+        "    'Bhopal',\n",
+        "    23.266836639220994,\n",
+        "    77.41617144898406\n",
+        "  UNION ALL\n",
+        "  SELECT\n",
+        "    'DC_CENTRAL_MH',\n",
+        "    'Pune',\n",
+        "    18.53410971818849,\n",
+        "    73.88147001369336\n",
+        "  UNION ALL\n",
+        "  SELECT\n",
+        "    'WH_NORTHEAST_AS',\n",
+        "    'Guwahati',\n",
+        "    26.11644624155923,\n",
+        "    91.71110344554376\n",
+        "),\n",
+        "warehouse_metrics AS (\n",
+        "  SELECT\n",
+        "    warehouse_id,\n",
+        "    region,\n",
+        "    COUNT(*) as total_events,\n",
+        "    AVG(delay_days) as avg_delay_days,\n",
+        "    SUM(is_delayed) as delayed_shipments,\n",
+        "    SUM(\n",
+        "      CASE\n",
+        "        WHEN revenue_leakage_flag = 1 THEN 1\n",
+        "        ELSE 0\n",
+        "      END\n",
+        "    ) as leakage_count\n",
+        "  FROM\n",
+        "    default.jio_supply_chain\n",
+        "  WHERE\n",
+        "    warehouse_id IS NOT NULL\n",
+        "  GROUP BY\n",
+        "    warehouse_id,\n",
+        "    region\n",
+        ")\n",
+        "SELECT\n",
+        "  wc.warehouse_id,\n",
+        "  wc.city,\n",
+        "  wc.latitude,\n",
+        "  wc.longitude,\n",
+        "  wm.region,\n",
+        "  wm.total_events,\n",
+        "  wm.avg_delay_days,\n",
+        "  wm.delayed_shipments,\n",
+        "  wm.leakage_count\n",
+        "FROM\n",
+        "  warehouse_coords wc\n",
+        "    INNER JOIN warehouse_metrics wm\n",
+        "      ON wc.warehouse_id = wm.warehouse_id"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "name": "9c83fb9f",
+      "displayName": "Executive Overview",
+      "layout": [
+        {
+          "widget": {
+            "name": "kpi_total_orders",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "d4e3a580",
+                  "fields": [
+                    {
+                      "name": "measure(total_orders)",
+                      "expression": "MEASURE(`total_orders`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 2,
+              "frame": {
+                "title": "Total Orders",
+                "showTitle": true
+              },
+              "widgetType": "counter",
+              "encodings": {
+                "value": {
+                  "fieldName": "measure(total_orders)",
+                  "format": {
+                    "type": "number-plain",
+                    "decimalPlaces": {
+                      "type": "exact",
+                      "places": 0
+                    },
+                    "abbreviation": "compact"
+                  },
+                  "displayName": "Total Orders"
+                }
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 2,
+            "height": 3
+          }
+        },
+        {
+          "widget": {
+            "name": "kpi_delivery_rate",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "d4e3a580",
+                  "fields": [
+                    {
+                      "name": "measure(delivery_rate)",
+                      "expression": "MEASURE(`delivery_rate`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 2,
+              "frame": {
+                "title": "Delivery Rate",
+                "showTitle": true
+              },
+              "widgetType": "counter",
+              "encodings": {
+                "value": {
+                  "fieldName": "measure(delivery_rate)",
+                  "format": {
+                    "type": "number-percent",
+                    "decimalPlaces": {
+                      "type": "exact",
+                      "places": 1
+                    }
+                  },
+                  "style": {
+                    "rules": [
+                      {
+                        "condition": {
+                          "operand": {
+                            "type": "data-value",
+                            "value": "0.95"
+                          },
+                          "operator": ">="
+                        },
+                        "color": "#22c55e"
+                      },
+                      {
+                        "condition": {
+                          "operand": {
+                            "type": "data-value",
+                            "value": "0.95"
+                          },
+                          "operator": "<"
+                        },
+                        "color": "#f59e0b"
+                      }
+                    ]
+                  },
+                  "displayName": "Delivery Rate"
+                }
+              }
+            }
+          },
+          "position": {
+            "x": 2,
+            "y": 0,
+            "width": 2,
+            "height": 3
+          }
+        },
+        {
+          "widget": {
+            "name": "kpi_activation_rate",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "d4e3a580",
+                  "fields": [
+                    {
+                      "name": "measure(activation_rate)",
+                      "expression": "MEASURE(`activation_rate`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 2,
+              "frame": {
+                "title": "Activation Rate",
+                "showTitle": true
+              },
+              "widgetType": "counter",
+              "encodings": {
+                "value": {
+                  "fieldName": "measure(activation_rate)",
+                  "format": {
+                    "type": "number-percent",
+                    "decimalPlaces": {
+                      "type": "exact",
+                      "places": 1
+                    }
+                  },
+                  "style": {
+                    "rules": [
+                      {
+                        "condition": {
+                          "operand": {
+                            "type": "data-value",
+                            "value": "0.9"
+                          },
+                          "operator": ">="
+                        },
+                        "color": "#22c55e"
+                      },
+                      {
+                        "condition": {
+                          "operand": {
+                            "type": "data-value",
+                            "value": "0.9"
+                          },
+                          "operator": "<"
+                        },
+                        "color": "#ef4444"
+                      }
+                    ]
+                  },
+                  "displayName": "Activation Rate"
+                }
+              }
+            }
+          },
+          "position": {
+            "x": 4,
+            "y": 0,
+            "width": 2,
+            "height": 3
+          }
+        },
+        {
+          "widget": {
+            "name": "kpi_revenue_leakage",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "d4e3a580",
+                  "fields": [
+                    {
+                      "name": "measure(revenue_leakage_count)",
+                      "expression": "MEASURE(`revenue_leakage_count`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 2,
+              "frame": {
+                "title": "Revenue Leakage Cases",
+                "showTitle": true
+              },
+              "widgetType": "counter",
+              "encodings": {
+                "value": {
+                  "fieldName": "measure(revenue_leakage_count)",
+                  "format": {
+                    "type": "number-plain",
+                    "decimalPlaces": {
+                      "type": "exact",
+                      "places": 1
+                    },
+                    "abbreviation": "compact"
+                  },
+                  "style": {
+                    "rules": [
+                      {
+                        "condition": {
+                          "operand": {
+                            "type": "data-value",
+                            "value": "30000"
+                          },
+                          "operator": ">"
+                        },
+                        "color": "#ef4444"
+                      },
+                      {
+                        "condition": {
+                          "operand": {
+                            "type": "data-value",
+                            "value": "30000"
+                          },
+                          "operator": "<="
+                        },
+                        "color": "#f59e0b"
+                      }
+                    ]
+                  },
+                  "displayName": "Revenue Leakage Count"
+                }
+              }
+            }
+          },
+          "position": {
+            "x": 6,
+            "y": 0,
+            "width": 2,
+            "height": 3
+          }
+        },
+        {
+          "widget": {
+            "name": "kpi_failure_return_rate",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "d4e3a580",
+                  "fields": [
+                    {
+                      "name": "measure(failure_to_return_rate)",
+                      "expression": "MEASURE(`failure_to_return_rate`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 2,
+              "frame": {
+                "title": "Failure → Return Rate",
+                "showTitle": true
+              },
+              "widgetType": "counter",
+              "encodings": {
+                "value": {
+                  "fieldName": "measure(failure_to_return_rate)",
+                  "format": {
+                    "type": "number-percent",
+                    "decimalPlaces": {
+                      "type": "exact",
+                      "places": 0
+                    }
+                  },
+                  "style": {
+                    "rules": [
+                      {
+                        "condition": {
+                          "operand": {
+                            "type": "data-value",
+                            "value": "1"
+                          },
+                          "operator": ">="
+                        },
+                        "color": "#ef4444"
+                      }
+                    ]
+                  },
+                  "displayName": "Failure to Return Rate"
+                }
+              }
+            }
+          },
+          "position": {
+            "x": 8,
+            "y": 0,
+            "width": 2,
+            "height": 3
+          }
+        },
+        {
+          "widget": {
+            "name": "kpi_scrap_rate",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "d4e3a580",
+                  "fields": [
+                    {
+                      "name": "measure(scrap_rate)",
+                      "expression": "MEASURE(`scrap_rate`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 2,
+              "frame": {
+                "title": "Scrap Rate",
+                "showTitle": true
+              },
+              "widgetType": "counter",
+              "encodings": {
+                "value": {
+                  "fieldName": "measure(scrap_rate)",
+                  "format": {
+                    "type": "number-percent",
+                    "decimalPlaces": {
+                      "type": "exact",
+                      "places": 1
+                    }
+                  },
+                  "style": {
+                    "rules": [
+                      {
+                        "condition": {
+                          "operand": {
+                            "type": "data-value",
+                            "value": "0.3"
+                          },
+                          "operator": ">"
+                        },
+                        "color": "#ef4444"
+                      },
+                      {
+                        "condition": {
+                          "operand": {
+                            "type": "data-value",
+                            "value": "0.3"
+                          },
+                          "operator": "<="
+                        },
+                        "color": "#f59e0b"
+                      }
+                    ]
+                  },
+                  "displayName": "Scrap Rate"
+                }
+              }
+            }
+          },
+          "position": {
+            "x": 10,
+            "y": 0,
+            "width": 2,
+            "height": 3
+          }
+        },
+        {
+          "widget": {
+            "name": "header_section1",
+            "multilineTextboxSpec": {
+              "lines": [
+                "## Section 1: Demand & Product Movement\n",
+                "\n",
+                "*Identifies demand concentration and SKU velocity patterns*"
+              ]
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 3,
+            "width": 12,
+            "height": 2
+          }
+        },
+        {
+          "widget": {
+            "name": "top_skus_by_volume",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "d4e3a580",
+                  "fields": [
+                    {
+                      "name": "brand",
+                      "expression": "`brand`"
+                    },
+                    {
+                      "name": "sku_family",
+                      "expression": "`sku_family`"
+                    },
+                    {
+                      "name": "measure(total_qty)",
+                      "expression": "MEASURE(`total_qty`)"
+                    }
+                  ],
+                  "filters": [
+                    {
+                      "expression": "`has_order` = 1"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "frame": {
+                "title": "Top SKUs by Volume",
+                "showTitle": true
+              },
+              "widgetType": "bar",
+              "encodings": {
+                "x": {
+                  "fieldName": "sku_family",
+                  "displayName": "SKU Family",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                },
+                "y": {
+                  "fieldName": "measure(total_qty)",
+                  "format": {
+                    "type": "number-plain",
+                    "decimalPlaces": {
+                      "type": "exact",
+                      "places": 1
+                    },
+                    "abbreviation": "compact"
+                  },
+                  "displayName": "Total Quantity",
+                  "scale": {
+                    "type": "quantitative"
+                  }
+                },
+                "color": {
+                  "fieldName": "brand",
+                  "legend": {
+                    "position": "right"
+                  },
+                  "displayName": "Brand",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                }
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 5,
+            "width": 6,
+            "height": 7
+          }
+        },
+        {
+          "widget": {
+            "name": "brand_share",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "d4e3a580",
+                  "fields": [
+                    {
+                      "name": "brand",
+                      "expression": "`brand`"
+                    },
+                    {
+                      "name": "measure(total_orders)",
+                      "expression": "MEASURE(`total_orders`)"
+                    }
+                  ],
+                  "filters": [
+                    {
+                      "expression": "`has_order` = 1"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "frame": {
+                "title": "Brand Contribution",
+                "showTitle": true
+              },
+              "widgetType": "bar",
+              "encodings": {
+                "x": {
+                  "fieldName": "brand",
+                  "displayName": "Brand",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                },
+                "y": {
+                  "fieldName": "measure(total_orders)",
+                  "format": {
+                    "type": "number-plain",
+                    "decimalPlaces": {
+                      "type": "exact",
+                      "places": 1
+                    },
+                    "abbreviation": "compact"
+                  },
+                  "displayName": "Total Orders",
+                  "scale": {
+                    "type": "quantitative"
+                  }
+                },
+                "color": {
+                  "fieldName": "brand",
+                  "legend": {
+                    "hide": true
+                  },
+                  "displayName": "Brand",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                },
+                "label": {
+                  "show": true
+                }
+              }
+            }
+          },
+          "position": {
+            "x": 6,
+            "y": 5,
+            "width": 3,
+            "height": 7
+          }
+        },
+        {
+          "widget": {
+            "name": "device_accessory_split",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "d4e3a580",
+                  "fields": [
+                    {
+                      "name": "measure(total_qty)",
+                      "expression": "MEASURE(`total_qty`)"
+                    },
+                    {
+                      "name": "device_type",
+                      "expression": "`device_type`"
+                    }
+                  ],
+                  "filters": [
+                    {
+                      "expression": "`has_order` = 1"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "frame": {
+                "title": "Device vs Accessory Split",
+                "showTitle": true
+              },
+              "widgetType": "pie",
+              "encodings": {
+                "angle": {
+                  "fieldName": "measure(total_qty)",
+                  "scale": {
+                    "type": "quantitative"
+                  },
+                  "format": {
+                    "type": "number-plain",
+                    "decimalPlaces": {
+                      "type": "exact",
+                      "places": 1
+                    },
+                    "abbreviation": "compact"
+                  },
+                  "displayName": "Total Quantity"
+                },
+                "color": {
+                  "fieldName": "device_type",
+                  "legend": {
+                    "position": "right"
+                  },
+                  "displayName": "Device Type",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                },
+                "label": {
+                  "show": true
+                }
+              }
+            }
+          },
+          "position": {
+            "x": 9,
+            "y": 5,
+            "width": 3,
+            "height": 7
+          }
+        },
+        {
+          "widget": {
+            "name": "header_section2",
+            "multilineTextboxSpec": {
+              "lines": [
+                "## Section 2: Inventory & Operations\n",
+                "\n",
+                "*Identifies inventory instability and operational inefficiencies*"
+              ]
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 12,
+            "width": 12,
+            "height": 2
+          }
+        },
+        {
+          "widget": {
+            "name": "inv_flow",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "d4e3a580",
+                  "fields": [
+                    {
+                      "name": "flow_type",
+                      "expression": "`flow_type`"
+                    },
+                    {
+                      "name": "measure(inventory_inflow)",
+                      "expression": "MEASURE(`inventory_inflow`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "frame": {
+                "title": "Inventory Flow: Inflow vs Outflow",
+                "showTitle": true
+              },
+              "widgetType": "bar",
+              "encodings": {
+                "x": {
+                  "fieldName": "flow_type",
+                  "displayName": "Flow Type",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                },
+                "y": {
+                  "fieldName": "measure(inventory_inflow)",
+                  "format": {
+                    "type": "number-plain",
+                    "decimalPlaces": {
+                      "type": "exact",
+                      "places": 1
+                    },
+                    "abbreviation": "compact"
+                  },
+                  "displayName": "Absolute Change",
+                  "scale": {
+                    "type": "quantitative"
+                  }
+                },
+                "label": {
+                  "show": true
+                }
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 14,
+            "width": 3,
+            "height": 7
+          }
+        },
+        {
+          "widget": {
+            "name": "inv_by_scenario",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "d4e3a580",
+                  "fields": [
+                    {
+                      "name": "flow_type",
+                      "expression": "`flow_type`"
+                    },
+                    {
+                      "name": "scenario_name",
+                      "expression": "`scenario_name`"
+                    },
+                    {
+                      "name": "measure(net_inventory_change)",
+                      "expression": "MEASURE(`net_inventory_change`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "frame": {
+                "title": "Inventory Movement by Scenario",
+                "showTitle": true
+              },
+              "mark": {
+                "layout": "stack"
+              },
+              "widgetType": "bar",
+              "encodings": {
+                "x": {
+                  "fieldName": "scenario_name",
+                  "displayName": "Scenario Name",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                },
+                "y": {
+                  "fieldName": "measure(net_inventory_change)",
+                  "format": {
+                    "type": "number-plain",
+                    "decimalPlaces": {
+                      "type": "exact",
+                      "places": 1
+                    },
+                    "abbreviation": "compact"
+                  },
+                  "displayName": "Net Inventory Change",
+                  "scale": {
+                    "type": "quantitative"
+                  }
+                },
+                "color": {
+                  "fieldName": "flow_type",
+                  "legend": {
+                    "position": "right"
+                  },
+                  "displayName": "Flow Type",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                }
+              }
+            }
+          },
+          "position": {
+            "x": 3,
+            "y": 14,
+            "width": 6,
+            "height": 7
+          }
+        },
+        {
+          "widget": {
+            "name": "wh_contribution",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "d4e3a580",
+                  "fields": [
+                    {
+                      "name": "warehouse_id",
+                      "expression": "`warehouse_id`"
+                    },
+                    {
+                      "name": "measure(count)",
+                      "expression": "MEASURE(`count`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "frame": {
+                "title": "Warehouse Contribution",
+                "showTitle": true
+              },
+              "widgetType": "bar",
+              "encodings": {
+                "x": {
+                  "fieldName": "warehouse_id",
+                  "displayName": "Warehouse ID",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                },
+                "y": {
+                  "fieldName": "measure(count)",
+                  "format": {
+                    "type": "number-plain",
+                    "decimalPlaces": {
+                      "type": "exact",
+                      "places": 1
+                    },
+                    "abbreviation": "compact"
+                  },
+                  "displayName": "Event Count",
+                  "scale": {
+                    "type": "quantitative"
+                  }
+                },
+                "color": {
+                  "fieldName": "warehouse_id",
+                  "legend": {
+                    "hide": true
+                  },
+                  "displayName": "Warehouse ID",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                }
+              }
+            }
+          },
+          "position": {
+            "x": 9,
+            "y": 14,
+            "width": 3,
+            "height": 7
+          }
+        },
+        {
+          "widget": {
+            "name": "monthly_adjustments",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "d4e3a580",
+                  "fields": [
+                    {
+                      "name": "scenario_name",
+                      "expression": "`scenario_name`"
+                    },
+                    {
+                      "name": "month",
+                      "expression": "`month`"
+                    },
+                    {
+                      "name": "measure(anomaly_count)",
+                      "expression": "MEASURE(`anomaly_count`)"
+                    }
+                  ],
+                  "filters": [
+                    {
+                      "expression": "`anomaly_flag` = 1"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "frame": {
+                "title": "Monthly Inventory Adjustments (Anomaly Tracking)",
+                "showTitle": true
+              },
+              "widgetType": "line",
+              "encodings": {
+                "x": {
+                  "fieldName": "month",
+                  "displayName": "Month",
+                  "scale": {
+                    "type": "quantitative"
+                  }
+                },
+                "y": {
+                  "fieldName": "measure(anomaly_count)",
+                  "format": {
+                    "type": "number-plain",
+                    "decimalPlaces": {
+                      "type": "exact",
+                      "places": 0
+                    },
+                    "abbreviation": "none"
+                  },
+                  "displayName": "Anomaly Count",
+                  "scale": {
+                    "type": "quantitative"
+                  }
+                },
+                "color": {
+                  "fieldName": "scenario_name",
+                  "legend": {
+                    "position": "right"
+                  },
+                  "displayName": "Scenario Name",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                }
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 21,
+            "width": 12,
+            "height": 7
+          }
+        },
+        {
+          "widget": {
+            "name": "header_section3",
+            "multilineTextboxSpec": {
+              "lines": [
+                "## Section 3: Order & Delivery Performance\n",
+                "\n",
+                "*Identifies fulfillment breakdowns and logistics inefficiencies*"
+              ]
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 28,
+            "width": 12,
+            "height": 2
+          }
+        },
+        {
+          "widget": {
+            "name": "order_funnel",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "d4e3a580",
+                  "fields": [
+                    {
+                      "name": "order_status_after",
+                      "expression": "`order_status_after`"
+                    },
+                    {
+                      "name": "measure(total_orders)",
+                      "expression": "MEASURE(`total_orders`)"
+                    }
+                  ],
+                  "filters": [
+                    {
+                      "expression": "`has_order` = 1"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "frame": {
+                "title": "Order Fulfillment Funnel",
+                "showTitle": true
+              },
+              "widgetType": "bar",
+              "encodings": {
+                "x": {
+                  "fieldName": "order_status_after",
+                  "displayName": "Order Status After",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                },
+                "y": {
+                  "fieldName": "measure(total_orders)",
+                  "format": {
+                    "type": "number-plain",
+                    "decimalPlaces": {
+                      "type": "exact",
+                      "places": 1
+                    },
+                    "abbreviation": "compact"
+                  },
+                  "displayName": "Order Count",
+                  "scale": {
+                    "type": "quantitative"
+                  }
+                },
+                "color": {
+                  "fieldName": "order_status_after",
+                  "legend": {
+                    "position": "right"
+                  },
+                  "displayName": "Order Status After",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                },
+                "label": {
+                  "show": true
+                }
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 30,
+            "width": 4,
+            "height": 7
+          }
+        },
+        {
+          "widget": {
+            "name": "ontime_by_carrier",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "d4e3a580",
+                  "fields": [
+                    {
+                      "name": "carrier",
+                      "expression": "`carrier`"
+                    },
+                    {
+                      "name": "measure(on_time_count)",
+                      "expression": "MEASURE(`on_time_count`)"
+                    }
+                  ],
+                  "filters": [
+                    {
+                      "expression": "`shipment_id` IS NOT NULL"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "frame": {
+                "title": "On-Time Rate by Carrier",
+                "showTitle": true
+              },
+              "widgetType": "bar",
+              "encodings": {
+                "x": {
+                  "fieldName": "carrier",
+                  "displayName": "Carrier",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                },
+                "y": {
+                  "fieldName": "measure(on_time_count)",
+                  "format": {
+                    "type": "number-plain",
+                    "decimalPlaces": {
+                      "type": "exact",
+                      "places": 0
+                    },
+                    "abbreviation": "compact"
+                  },
+                  "displayName": "On Time Count",
+                  "scale": {
+                    "type": "quantitative"
+                  }
+                },
+                "color": {
+                  "fieldName": "carrier",
+                  "legend": {
+                    "hide": true
+                  },
+                  "displayName": "Carrier",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                },
+                "label": {
+                  "show": true
+                }
+              }
+            }
+          },
+          "position": {
+            "x": 4,
+            "y": 30,
+            "width": 4,
+            "height": 7
+          }
+        },
+        {
+          "widget": {
+            "name": "carrier_region_heatmap",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "d4e3a580",
+                  "fields": [
+                    {
+                      "name": "measure(avg_delay_days)",
+                      "expression": "MEASURE(`avg_delay_days`)"
+                    },
+                    {
+                      "name": "carrier",
+                      "expression": "`carrier`"
+                    },
+                    {
+                      "name": "region",
+                      "expression": "`region`"
+                    }
+                  ],
+                  "filters": [
+                    {
+                      "expression": "`shipment_id` IS NOT NULL"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "frame": {
+                "title": "Carrier × Region: Delay Heatmap",
+                "showTitle": true
+              },
+              "widgetType": "heatmap",
+              "encodings": {
+                "x": {
+                  "fieldName": "carrier",
+                  "displayName": "Carrier",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                },
+                "y": {
+                  "fieldName": "region",
+                  "displayName": "Region",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                },
+                "color": {
+                  "fieldName": "measure(avg_delay_days)",
+                  "legend": {
+                    "position": "right"
+                  },
+                  "displayName": "Avg Delay Days",
+                  "scale": {
+                    "type": "quantitative"
+                  }
+                },
+                "label": {
+                  "show": true
+                }
+              }
+            }
+          },
+          "position": {
+            "x": 8,
+            "y": 30,
+            "width": 4,
+            "height": 7
+          }
+        },
+        {
+          "widget": {
+            "name": "root_cause_dist",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "d4e3a580",
+                  "fields": [
+                    {
+                      "name": "root_cause_category",
+                      "expression": "`root_cause_category`"
+                    },
+                    {
+                      "name": "measure(exception_count)",
+                      "expression": "MEASURE(`exception_count`)"
+                    }
+                  ],
+                  "filters": [
+                    {
+                      "expression": "`is_exception` = 1"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "frame": {
+                "title": "Root Cause Distribution",
+                "showTitle": true
+              },
+              "widgetType": "bar",
+              "encodings": {
+                "x": {
+                  "fieldName": "root_cause_category",
+                  "displayName": "Root Cause Category",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                },
+                "y": {
+                  "fieldName": "measure(exception_count)",
+                  "format": {
+                    "type": "number-plain",
+                    "decimalPlaces": {
+                      "type": "exact",
+                      "places": 1
+                    },
+                    "abbreviation": "compact"
+                  },
+                  "displayName": "Exception Count",
+                  "scale": {
+                    "type": "quantitative"
+                  }
+                },
+                "color": {
+                  "fieldName": "root_cause_category",
+                  "legend": {
+                    "hide": true
+                  },
+                  "displayName": "Root Cause Category",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                },
+                "label": {
+                  "show": true
+                }
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 37,
+            "width": 6,
+            "height": 7
+          }
+        },
+        {
+          "widget": {
+            "name": "header_section4",
+            "multilineTextboxSpec": {
+              "lines": [
+                "## Section 4: Financial & Diagnostic Layer\n",
+                "\n",
+                "*Identifies where money is lost and why - the critical decision layer*"
+              ]
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 44,
+            "width": 12,
+            "height": 2
+          }
+        },
+        {
+          "widget": {
+            "name": "section4a_header",
+            "multilineTextboxSpec": {
+              "lines": [
+                "### 4A: Reverse Logistics"
+              ]
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 46,
+            "width": 4,
+            "height": 1
+          }
+        },
+        {
+          "widget": {
+            "name": "reverse_logistics_mix",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "d4e3a580",
+                  "fields": [
+                    {
+                      "name": "measure(returns_count)",
+                      "expression": "MEASURE(`returns_count`)"
+                    },
+                    {
+                      "name": "reverse_status_after",
+                      "expression": "`reverse_status_after`"
+                    }
+                  ],
+                  "filters": [
+                    {
+                      "expression": "`reverse_status_after` IS NOT NULL"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "frame": {
+                "title": "Return Disposition Mix",
+                "showTitle": true
+              },
+              "widgetType": "pie",
+              "encodings": {
+                "angle": {
+                  "fieldName": "measure(returns_count)",
+                  "scale": {
+                    "type": "quantitative"
+                  },
+                  "format": {
+                    "type": "number-plain",
+                    "decimalPlaces": {
+                      "type": "exact",
+                      "places": 0
+                    },
+                    "abbreviation": "compact"
+                  },
+                  "displayName": "Returns Count"
+                },
+                "color": {
+                  "fieldName": "reverse_status_after",
+                  "legend": {
+                    "position": "right"
+                  },
+                  "displayName": "Reverse Status After",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                },
+                "label": {
+                  "show": true
+                }
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 47,
+            "width": 4,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "section4b_header",
+            "multilineTextboxSpec": {
+              "lines": [
+                "### 4B: Activation Failure Loop"
+              ]
+            }
+          },
+          "position": {
+            "x": 4,
+            "y": 46,
+            "width": 4,
+            "height": 1
+          }
+        },
+        {
+          "widget": {
+            "name": "activation_failure_by_sku",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "d4e3a580",
+                  "fields": [
+                    {
+                      "name": "brand",
+                      "expression": "`brand`"
+                    },
+                    {
+                      "name": "sku_family",
+                      "expression": "`sku_family`"
+                    },
+                    {
+                      "name": "measure(failed_activation_orders)",
+                      "expression": "MEASURE(`failed_activation_orders`)"
+                    }
+                  ],
+                  "filters": [
+                    {
+                      "expression": "`activation_status_after` = 'FAILED'"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "frame": {
+                "title": "Activation Failures by SKU",
+                "showTitle": true
+              },
+              "widgetType": "bar",
+              "encodings": {
+                "x": {
+                  "fieldName": "sku_family",
+                  "displayName": "SKU Family",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                },
+                "y": {
+                  "fieldName": "measure(failed_activation_orders)",
+                  "format": {
+                    "type": "number-plain",
+                    "decimalPlaces": {
+                      "type": "exact",
+                      "places": 0
+                    },
+                    "abbreviation": "compact"
+                  },
+                  "displayName": "Failed Activation Orders",
+                  "scale": {
+                    "type": "quantitative"
+                  }
+                },
+                "color": {
+                  "fieldName": "brand",
+                  "legend": {
+                    "hide": true
+                  },
+                  "displayName": "Brand",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                },
+                "label": {
+                  "show": true
+                }
+              }
+            }
+          },
+          "position": {
+            "x": 4,
+            "y": 47,
+            "width": 4,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "section4c_header",
+            "multilineTextboxSpec": {
+              "lines": [
+                "### 4C: Revenue Leakage Drivers (HERO)"
+              ]
+            }
+          },
+          "position": {
+            "x": 8,
+            "y": 46,
+            "width": 4,
+            "height": 1
+          }
+        },
+        {
+          "widget": {
+            "name": "revenue_leakage_pareto",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "d4e3a580",
+                  "fields": [
+                    {
+                      "name": "scenario_name",
+                      "expression": "`scenario_name`"
+                    },
+                    {
+                      "name": "measure(revenue_leakage_count)",
+                      "expression": "MEASURE(`revenue_leakage_count`)"
+                    }
+                  ],
+                  "filters": [
+                    {
+                      "expression": "`revenue_leakage_flag` = 1"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "frame": {
+                "title": "Revenue Leakage by Scenario (Pareto)",
+                "showTitle": true
+              },
+              "widgetType": "bar",
+              "encodings": {
+                "x": {
+                  "fieldName": "scenario_name",
+                  "displayName": "Scenario Name",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                },
+                "y": {
+                  "fieldName": "measure(revenue_leakage_count)",
+                  "format": {
+                    "type": "number-plain",
+                    "decimalPlaces": {
+                      "type": "exact",
+                      "places": 1
+                    },
+                    "abbreviation": "compact"
+                  },
+                  "displayName": "Leakage Count",
+                  "scale": {
+                    "type": "quantitative"
+                  }
+                },
+                "color": {
+                  "fieldName": "scenario_name",
+                  "legend": {
+                    "hide": true
+                  },
+                  "displayName": "Scenario Name",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                },
+                "label": {
+                  "show": true
+                }
+              }
+            }
+          },
+          "position": {
+            "x": 8,
+            "y": 47,
+            "width": 4,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "section4e_header",
+            "multilineTextboxSpec": {
+              "lines": [
+                "### 4E: OEM Constraints"
+              ]
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 53,
+            "width": 6,
+            "height": 1
+          }
+        },
+        {
+          "widget": {
+            "name": "oem_exception_rate",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "d4e3a580",
+                  "fields": [
+                    {
+                      "name": "root_cause_category",
+                      "expression": "`root_cause_category`"
+                    },
+                    {
+                      "name": "oem_name",
+                      "expression": "`oem_name`"
+                    },
+                    {
+                      "name": "measure(exception_count)",
+                      "expression": "MEASURE(`exception_count`)"
+                    }
+                  ],
+                  "filters": [
+                    {
+                      "expression": "`oem_name` IS NOT NULL"
+                    },
+                    {
+                      "expression": "`is_exception` = 1"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "frame": {
+                "title": "OEM Exception Rate",
+                "showTitle": true
+              },
+              "widgetType": "bar",
+              "encodings": {
+                "x": {
+                  "fieldName": "oem_name",
+                  "displayName": "OEM Name",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                },
+                "y": {
+                  "fieldName": "measure(exception_count)",
+                  "format": {
+                    "type": "number-plain",
+                    "decimalPlaces": {
+                      "type": "exact",
+                      "places": 0
+                    },
+                    "abbreviation": "compact"
+                  },
+                  "displayName": "Exception Count",
+                  "scale": {
+                    "type": "quantitative"
+                  }
+                },
+                "color": {
+                  "fieldName": "root_cause_category",
+                  "legend": {
+                    "hide": true
+                  },
+                  "displayName": "Root Cause Category",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                },
+                "label": {
+                  "show": true
+                }
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 54,
+            "width": 6,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "section4f_header",
+            "multilineTextboxSpec": {
+              "lines": [
+                "### 4F: Scenario × Brand Leakage Heatmap"
+              ]
+            }
+          },
+          "position": {
+            "x": 6,
+            "y": 53,
+            "width": 6,
+            "height": 1
+          }
+        },
+        {
+          "widget": {
+            "name": "scenario_brand_heatmap",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "d4e3a580",
+                  "fields": [
+                    {
+                      "name": "measure(revenue_leakage_count)",
+                      "expression": "MEASURE(`revenue_leakage_count`)"
+                    },
+                    {
+                      "name": "scenario_name",
+                      "expression": "`scenario_name`"
+                    },
+                    {
+                      "name": "brand",
+                      "expression": "`brand`"
+                    }
+                  ],
+                  "filters": [
+                    {
+                      "expression": "`revenue_leakage_flag` = 1"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "frame": {
+                "title": "Scenario × Brand: Leakage Intensity",
+                "showTitle": true
+              },
+              "widgetType": "heatmap",
+              "encodings": {
+                "x": {
+                  "fieldName": "scenario_name",
+                  "displayName": "Scenario Name",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                },
+                "y": {
+                  "fieldName": "brand",
+                  "displayName": "Brand",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                },
+                "color": {
+                  "fieldName": "measure(revenue_leakage_count)",
+                  "legend": {
+                    "position": "right"
+                  },
+                  "displayName": "Leakage Count",
+                  "scale": {
+                    "type": "quantitative"
+                  }
+                },
+                "label": {
+                  "show": true
+                }
+              }
+            }
+          },
+          "position": {
+            "x": 6,
+            "y": 54,
+            "width": 6,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "warehouse_geo_map",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "warehouse_geo_map",
+                  "fields": [
+                    {
+                      "name": "avg_delay_days",
+                      "expression": "`avg_delay_days`"
+                    },
+                    {
+                      "name": "latitude",
+                      "expression": "`latitude`"
+                    },
+                    {
+                      "name": "longitude",
+                      "expression": "`longitude`"
+                    },
+                    {
+                      "name": "warehouse_id",
+                      "expression": "`warehouse_id`"
+                    },
+                    {
+                      "name": "city",
+                      "expression": "`city`"
+                    },
+                    {
+                      "name": "leakage_count",
+                      "expression": "`leakage_count`"
+                    },
+                    {
+                      "name": "delayed_shipments",
+                      "expression": "`delayed_shipments`"
+                    }
+                  ],
+                  "disaggregated": true
+                }
+              }
+            ],
+            "spec": {
+              "version": 2,
+              "frame": {
+                "title": "Warehouse Delay Performance Map",
+                "showTitle": true
+              },
+              "widgetType": "symbol-map",
+              "encodings": {
+                "coordinates": {
+                  "latitude": {
+                    "fieldName": "latitude",
+                    "displayName": "Latitude"
+                  },
+                  "longitude": {
+                    "fieldName": "longitude",
+                    "displayName": "Longitude"
+                  }
+                },
+                "color": {
+                  "fieldName": "avg_delay_days",
+                  "displayName": "Avg Delay Days",
+                  "scale": {
+                    "type": "quantitative"
+                  }
+                },
+                "size": {
+                  "fieldName": "delayed_shipments",
+                  "scale": {
+                    "type": "quantitative"
+                  },
+                  "displayName": "Delayed Shipments"
+                },
+                "extra": [
+                  {
+                    "fieldName": "warehouse_id",
+                    "displayName": "Warehouse"
+                  },
+                  {
+                    "fieldName": "city",
+                    "displayName": "City"
+                  },
+                  {
+                    "fieldName": "leakage_count",
+                    "displayName": "Leakage Cases"
+                  }
+                ]
+              }
+            }
+          },
+          "position": {
+            "x": 6,
+            "y": 37,
+            "width": 6,
+            "height": 7
+          }
+        }
+      ],
+      "pageType": "PAGE_TYPE_CANVAS",
+      "layoutVersion": "GRID_V1"
+    },
+    {
+      "name": "global_filters",
+      "displayName": "Global Filters",
+      "layout": [
+        {
+          "widget": {
+            "name": "filter_year",
+            "queries": [
+              {
+                "name": "dashboards/01f13fffef69103e885e0540a22e39a0/datasets/01f140000c141131851be1812b8961f9_year",
+                "query": {
+                  "datasetName": "d4e3a580",
+                  "fields": [
+                    {
+                      "name": "year",
+                      "expression": "`year`"
+                    },
+                    {
+                      "name": "year_associativity",
+                      "expression": "COUNT_IF(`associative_filter_predicate_group`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 2,
+              "frame": {
+                "title": "Year",
+                "showTitle": true
+              },
+              "widgetType": "filter-multi-select",
+              "encodings": {
+                "fields": [
+                  {
+                    "fieldName": "year",
+                    "queryName": "dashboards/01f13fffef69103e885e0540a22e39a0/datasets/01f140000c141131851be1812b8961f9_year"
+                  }
+                ]
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 2,
+            "height": 3
+          }
+        },
+        {
+          "widget": {
+            "name": "filter_month",
+            "queries": [
+              {
+                "name": "dashboards/01f13fffef69103e885e0540a22e39a0/datasets/01f140000c141131851be1812b8961f9_month",
+                "query": {
+                  "datasetName": "d4e3a580",
+                  "fields": [
+                    {
+                      "name": "month",
+                      "expression": "`month`"
+                    },
+                    {
+                      "name": "month_associativity",
+                      "expression": "COUNT_IF(`associative_filter_predicate_group`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 2,
+              "frame": {
+                "title": "Month",
+                "showTitle": true
+              },
+              "widgetType": "filter-multi-select",
+              "encodings": {
+                "fields": [
+                  {
+                    "fieldName": "month",
+                    "queryName": "dashboards/01f13fffef69103e885e0540a22e39a0/datasets/01f140000c141131851be1812b8961f9_month"
+                  }
+                ]
+              }
+            }
+          },
+          "position": {
+            "x": 2,
+            "y": 0,
+            "width": 2,
+            "height": 3
+          }
+        },
+        {
+          "widget": {
+            "name": "filter_brand",
+            "queries": [
+              {
+                "name": "dashboards/01f13fffef69103e885e0540a22e39a0/datasets/01f140000c141131851be1812b8961f9_brand",
+                "query": {
+                  "datasetName": "d4e3a580",
+                  "fields": [
+                    {
+                      "name": "brand",
+                      "expression": "`brand`"
+                    },
+                    {
+                      "name": "brand_associativity",
+                      "expression": "COUNT_IF(`associative_filter_predicate_group`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 2,
+              "frame": {
+                "title": "Brand",
+                "showTitle": true
+              },
+              "widgetType": "filter-multi-select",
+              "encodings": {
+                "fields": [
+                  {
+                    "fieldName": "brand",
+                    "queryName": "dashboards/01f13fffef69103e885e0540a22e39a0/datasets/01f140000c141131851be1812b8961f9_brand"
+                  }
+                ]
+              }
+            }
+          },
+          "position": {
+            "x": 4,
+            "y": 0,
+            "width": 2,
+            "height": 3
+          }
+        },
+        {
+          "widget": {
+            "name": "filter_sku_family",
+            "queries": [
+              {
+                "name": "dashboards/01f13fffef69103e885e0540a22e39a0/datasets/01f140000c141131851be1812b8961f9_sku_family",
+                "query": {
+                  "datasetName": "d4e3a580",
+                  "fields": [
+                    {
+                      "name": "sku_family",
+                      "expression": "`sku_family`"
+                    },
+                    {
+                      "name": "sku_family_associativity",
+                      "expression": "COUNT_IF(`associative_filter_predicate_group`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 2,
+              "frame": {
+                "title": "SKU Family",
+                "showTitle": true
+              },
+              "widgetType": "filter-multi-select",
+              "encodings": {
+                "fields": [
+                  {
+                    "fieldName": "sku_family",
+                    "queryName": "dashboards/01f13fffef69103e885e0540a22e39a0/datasets/01f140000c141131851be1812b8961f9_sku_family"
+                  }
+                ]
+              }
+            }
+          },
+          "position": {
+            "x": 6,
+            "y": 0,
+            "width": 2,
+            "height": 3
+          }
+        },
+        {
+          "widget": {
+            "name": "filter_region",
+            "queries": [
+              {
+                "name": "dashboards/01f13fffef69103e885e0540a22e39a0/datasets/01f140000c141131851be1812b8961f9_region",
+                "query": {
+                  "datasetName": "d4e3a580",
+                  "fields": [
+                    {
+                      "name": "region",
+                      "expression": "`region`"
+                    },
+                    {
+                      "name": "region_associativity",
+                      "expression": "COUNT_IF(`associative_filter_predicate_group`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 2,
+              "frame": {
+                "title": "Region",
+                "showTitle": true
+              },
+              "widgetType": "filter-multi-select",
+              "encodings": {
+                "fields": [
+                  {
+                    "fieldName": "region",
+                    "queryName": "dashboards/01f13fffef69103e885e0540a22e39a0/datasets/01f140000c141131851be1812b8961f9_region"
+                  }
+                ]
+              }
+            }
+          },
+          "position": {
+            "x": 8,
+            "y": 0,
+            "width": 2,
+            "height": 3
+          }
+        },
+        {
+          "widget": {
+            "name": "filter_scenario",
+            "queries": [
+              {
+                "name": "dashboards/01f13fffef69103e885e0540a22e39a0/datasets/01f140000c141131851be1812b8961f9_scenario_name",
+                "query": {
+                  "datasetName": "d4e3a580",
+                  "fields": [
+                    {
+                      "name": "scenario_name",
+                      "expression": "`scenario_name`"
+                    },
+                    {
+                      "name": "scenario_name_associativity",
+                      "expression": "COUNT_IF(`associative_filter_predicate_group`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 2,
+              "frame": {
+                "title": "Scenario",
+                "showTitle": true
+              },
+              "widgetType": "filter-multi-select",
+              "encodings": {
+                "fields": [
+                  {
+                    "fieldName": "scenario_name",
+                    "queryName": "dashboards/01f13fffef69103e885e0540a22e39a0/datasets/01f140000c141131851be1812b8961f9_scenario_name"
+                  }
+                ]
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 3,
+            "width": 3,
+            "height": 3
+          }
+        },
+        {
+          "widget": {
+            "name": "filter_flow_type",
+            "queries": [
+              {
+                "name": "dashboards/01f13fffef69103e885e0540a22e39a0/datasets/01f140000c141131851be1812b8961f9_flow_type",
+                "query": {
+                  "datasetName": "d4e3a580",
+                  "fields": [
+                    {
+                      "name": "flow_type",
+                      "expression": "`flow_type`"
+                    },
+                    {
+                      "name": "flow_type_associativity",
+                      "expression": "COUNT_IF(`associative_filter_predicate_group`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 2,
+              "frame": {
+                "title": "Flow Type",
+                "showTitle": true
+              },
+              "widgetType": "filter-single-select",
+              "encodings": {
+                "fields": [
+                  {
+                    "fieldName": "flow_type",
+                    "queryName": "dashboards/01f13fffef69103e885e0540a22e39a0/datasets/01f140000c141131851be1812b8961f9_flow_type"
+                  }
+                ]
+              }
+            }
+          },
+          "position": {
+            "x": 3,
+            "y": 3,
+            "width": 2,
+            "height": 3
+          }
+        }
+      ],
+      "pageType": "PAGE_TYPE_GLOBAL_FILTERS",
+      "layoutVersion": "GRID_V1"
+    }
+  ],
+  "uiSettings": {
+    "theme": {
+      "widgetHeaderAlignment": "ALIGNMENT_UNSPECIFIED"
+    },
+    "applyModeEnabled": false
+  }
+}
